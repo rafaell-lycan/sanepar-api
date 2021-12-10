@@ -1,0 +1,36 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.husky
+.prettierignore
+
+# Test coverage
+coverage
+.nyc_output
+
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Yarn Integrity file
+.yarn-integrity
+
+#Node.js crash reports
+report.*
+
+# Output dir
+lib
+dist
+
+# Custom ignores
+package-lock.json
+yarn.lock
