@@ -34,3 +34,4 @@ dist
 # Custom ignores
 package-lock.json
 yarn.lock
+.env

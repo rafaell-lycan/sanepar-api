@@ -7,8 +7,11 @@ routes.get('/_health', (_req, res) => {
   res.json({ status: 'OK' })
 })
 
+routes.get('/', (_req, res) => {
+  res.redirect('/api');
+})
 
-routes.get('/', async (_req, res) => {
+routes.get('/api', async (_req, res) => {
   try {
     const data = await getDamnsInformation()
     res.send(data)
